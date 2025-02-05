@@ -1,6 +1,6 @@
 # Student Management System
 
-Welcome to the Student Management System! This project allows you to manage student information easily using a MySQL database. It supports adding, viewing, editing, and deleting student records along with calculating CGPA on a 10-point scale.
+Welcome to the Student Management System! This project allows you to manage student information easily using a MySQL database. It supports adding, viewing, editing, and deleting student records.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
@@ -8,6 +8,7 @@ Welcome to the Student Management System! This project allows you to manage stud
 3. [Folder Structure](#folder-structure)
 4. [Features](#features)
 5. [How to Run the Application](#how-to-run-the-application)
+6. [Screenshots](#Screenshots)
 
 ---
 
