@@ -93,6 +93,9 @@ Now, let’s set up the project files.
 
 ---
 
+> [!IMPORTANT]
+> Do not skip the installation of dependencies. These libraries are crucial for setting up the backend server and MySQL connection.
+
 ## Folder Structure
 
 The project directory will look like this:
