@@ -13,15 +13,15 @@ Welcome to the Student Management System! This project allows you to manage stud
 
 ## Prerequisites
 
-Before setting up the project, make sure you have the following installed on your system:
+> Before setting up the project, make sure you have the following installed on your system:
 
-1. **MySQL Workbench**: A tool to manage MySQL databases.
+> 1. **MySQL Workbench**: A tool to manage MySQL databases.
    
-2. **Node.js and npm (Node Package Manager)**:
+> 2. **Node.js and npm (Node Package Manager)**:
    - Download Node.js (npm comes bundled with it) 
    - Verify installation by running `node -v` and `npm -v` in your terminal.
 
-3. **Text Editor**: Use any text editor to edit the code files. Some popular choices are:
+> 3. **Text Editor**: Use any text editor to edit the code files. Some popular choices are:
    - Visual Studio Code
 
 ---
