@@ -96,6 +96,8 @@ Now, let’s set up the project files.
 The project directory will look like this:
 
 ```
+Student-Management-System/
+│
 ├── node_modules/                  # Installed dependencies (auto-created by npm install)
 ├── public/                         # Static files (HTML, CSS, JS)
 │   ├── index.html                  # Main HTML file
