@@ -36,6 +36,8 @@ Before setting up the project, make sure you have the following installed on you
 
    ```sql
    CREATE DATABASE student_management;
+   ```
+   ```sql
    USE student_management;
    ```
 
