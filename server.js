@@ -15,7 +15,7 @@ app.use(express.static('public'));
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', // Replace with your MySQL username
-    password: 'mYsQl@XV02', // Replace with your MySQL password
+    password: 'Password', // Replace with your MySQL password
     database: 'student_management'
 });
 
