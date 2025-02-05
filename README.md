@@ -189,12 +189,3 @@ Other fields are optional and can be filled in later.
 
 ---
 
-## Conclusion
-
-That's it! You now have a fully working **Student Management System**. You can manage student data by adding, editing, viewing, and deleting records in your MySQL database, all via the web interface.
-
-If you face any issues or need further assistance, feel free to ask!
-
----
-
-This `README.md` provides a complete, beginner-friendly guide to setting up the project. Let me know if you need additional changes!
