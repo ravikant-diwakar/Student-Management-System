@@ -7,6 +7,8 @@ A simple student management system that allows storing and managing student info
 1. Install MySQL Workbench and create a new database:
 ```sql
 CREATE DATABASE student_management;
+```
+```sql
 USE student_management;
 ```
 
