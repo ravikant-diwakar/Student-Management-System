@@ -1,7 +1,3 @@
-Here's a detailed, easy-to-understand `README.md` for your Student Management System project. It is designed to help even a user with zero knowledge of the project to understand and set it up easily.
-
----
-
 # Student Management System
 
 Welcome to the Student Management System! This project allows you to manage student information easily using a MySQL database. It supports adding, viewing, editing, and deleting student records along with calculating CGPA on a 10-point scale.
