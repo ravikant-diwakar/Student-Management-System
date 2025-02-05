@@ -112,12 +112,12 @@ Student-Management-System/
 
 ## Features
 
-- **Add New Students**: Add new student records with both basic and optional information.
-- **View All Students**: View all the student records in a table format.
-- **Edit Students**: Edit existing student records.
-- **Delete Students**: Remove student records from the database.
-- **CGPA Calculation**: Calculate CGPA on a 10-point scale for each student.
-- **Responsive Design**: The application is mobile-friendly and works well on any device.
+- [x] **Add New Students**: Add new student records with both basic and optional information.
+- [x] **View All Students**: View all the student records in a table format.
+- [x] **Edit Students**: Edit existing student records.
+- [x] **Delete Students**: Remove student records from the database.
+- [x] **CGPA Calculation**: Calculate CGPA on a 10-point scale for each student.
+- [x] **Responsive Design**: The application is mobile-friendly and works well on any device.
 
 ### Required Fields (Basic Information)
 
