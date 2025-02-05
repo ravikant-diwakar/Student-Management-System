@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+        
+        <div class="form-container">
+            <h2>Add/Edit Student</h2>
+            <form id="studentForm">
+                <h3>Basic Information (Required)</h3>
+                <div class="form-group">
+                    <input type="text" id="studentId" placeholder="Student ID *" required>
+                    <input type="text" id="firstName" placeholder="First Name *" required>
+                    <input type="text" id="lastName" placeholder="Last Name *" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" id="dob" required>
+                    <select id="gender" required>
+                        <option value="">Select Gender *</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number *" required>
+                    <input type="email" id="email" placeholder="Email *" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="address" placeholder="Address *" required></textarea>
+                </div>
+
+                <h3>Academic Details (Optional)</h3>
+                <div class="form-group">
+                    <input type="date" id="enrollmentDate">
+                    <input type="text" id="programName" placeholder="Program Name">
+                    <input type="number" id="semester" placeholder="Current Semester" min="1" max="8">
+                </div>
+                <div class="form-group">
+                    <input type="number" id="cgpa" placeholder="CGPA (0-10)" step="0.01" min="0" max="10">
+                    <input type="text" id="section" placeholder="Class/Section">
+                </div>
+
+                <h3>Guardian Information (Optional)</h3>
+                <div class="form-group">
+                    <input type="text" id="guardianName" placeholder="Guardian Name">
+                    <input type="text" id="guardianRelation" placeholder="Relationship">
+                    <input type="tel" id="guardianPhone" placeholder="Guardian Phone">
+                    <input type="email" id="guardianEmail" placeholder="Guardian Email">
+                </div>
+
+                <h3>Additional Information (Optional)</h3>
+                <div class="form-group">
+                    <textarea id="activities" placeholder="Extracurricular Activities"></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn">Add Student</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <h2>Student Records</h2>
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Name</th>
+                        <th>Contact</th>
+                        <th>Academic Info</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
