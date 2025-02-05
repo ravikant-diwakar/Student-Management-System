@@ -113,6 +113,9 @@ Student-Management-System/
 └── package-lock.json               # Lock file for dependency versions
 ```
 
+> [!NOTE]
+> server.js is the backend server code that connects to MySQL and handles API requests. Ensure this file is properly configured before starting the server.
+
 ---
 
 ## Features
