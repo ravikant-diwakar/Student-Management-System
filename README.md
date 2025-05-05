@@ -1,3 +1,4 @@
+
 # Student Management System
 
 Welcome to the Student Management System! This project allows you to manage student information easily using a MySQL database. It supports adding, viewing, editing, and deleting student records.
